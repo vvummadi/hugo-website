@@ -77,7 +77,7 @@ params:
         - name: CV
           url: cv.pdf
         - name: Email
-          url: mailto:moritz.maria.von.igelfeld@gmail.com
+          url: mailto:igelfeld@regensburg.edu
         - name: Zoom
           url: https://www.zoom.us/my/igelfeld
         - name: Location
@@ -91,7 +91,7 @@ params:
         - name: Substack
           url: https://pmichaillat.substack.com
         - name: YouTube
-          url: https://www.youtube.com/@alexandermccallsmithoffici9000
+          url: https://www.youtube.com/@apmichaillat
         - name: Twitter
           url: https://twitter.com/McCallSmith
 
