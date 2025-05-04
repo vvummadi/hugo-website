@@ -36,7 +36,7 @@ Navigate to the website directory (`cd`) and run in the terminal:
 hugo server
 ```
 
-The command builds the website on your machine and makes it available at http://localhost:1313, rebuilding automatically as you edit. You can modify the content of the repository and develop your website entirely on your local machine.
+The command builds the website on your machine and makes it available at http://localhost:1313, rebuilding automatically as you edit. You can modify the content of the repository and develop your website entirely on your machine.
 
 ### Continuous deployment
 
@@ -56,15 +56,19 @@ And here is an overview of the desktop performance:
 
 ## Software
 
-The website was built with Hugo v0.128.2 on an Apple Silicon Mac running macOS Sonoma 14.5. The website was tested and validated on Safari 17.5 on a Mac and on Safari on an iPhone with iOS 17.5.[^1]
+The website is built with Hugo v0.128.0. The website was tested and validated on Safari 17.5 on a Mac and on Safari on an iPhone with iOS 17.5.[^1]
 
 [^1]:  The updates to Hugo v0.120 and then to Hugo v0.123 introduced some issues with previous versions of the template. The issue caused by the update to Hugo v0.120 is [#1325 in the PaperMod repo](https://github.com/adityatelange/hugo-PaperMod/issues/1325). The issue caused by the update to Hugo v0.123 is [#1449 in the PaperMod repo](https://github.com/adityatelange/hugo-PaperMod/issues/1449). These issues are now resolved
 
-While the template should also work on other operating systems and with other versions of Hugo, compatibility cannot be guaranteed. Users on Windows or Linux systems, or those using different Hugo versions, may need to make minor adjustments. Similarly, the website should work with other browsers, but minor adjustments might be necessary for perfect compatibility. [Please report](https://github.com/pmichaillat/hugo-website/issues) any compatibility issues or bugs to help improve cross-platform support.
+While the template should also work with other versions of Hugo, compatibility cannot be guaranteed. Users working with different Hugo versions may need to make minor adjustments. Similarly, the website should work with other browsers, but minor adjustments might be necessary for perfect compatibility. [Please report](https://github.com/pmichaillat/hugo-website/issues) any compatibility issues or bugs.
 
 ## License
 
 This repository is licensed under the [MIT License](LICENSE.md).
+
+## Related resources
+
++ [latex-cv](https://github.com/pmichaillat/latex-cv) - This LaTeX template produces a minimalist academic CV, which you can post on your website. Your CV should be named `cv.pdf` and placed in the `static` folder. It will be accessible from the homepage via a social icon.
 
 ## Real-world implementations
 
