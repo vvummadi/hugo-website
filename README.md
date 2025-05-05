@@ -66,9 +66,9 @@ And here is an overview of the desktop performance:
 + Operating system: macOS Sequoia 15.4.1  
 + Hugo version: v0.135.0
 
-### Browser tests
+### Browser testing
 
-+ Safari 18.4 on macOS
++ Safari 18.4 on macOS 15.4.1
 + Mobile Safari on iOS 18.4.1  
 
 ### Reporting issues
