@@ -38,9 +38,9 @@ hugo server
 
 The command builds the website on your machine and makes it available at http://localhost:1313, rebuilding automatically as you edit. You can modify the content of the repository and develop your website entirely on your machine.
 
-### Continuous deployment
+### Deployment via Continuous Integration
 
-Once your website is ready to be made public, commit your content or template changes and push them to the website repository on GitHub (to the default branch, `main`). It is convenient to use GitHub Desktop for this Git operation.
+Once your website is ready to be made public, commit your content and template changes and push them to the website repository on GitHub (to the default branch, `main`). It is convenient to use GitHub Desktop for this Git operation.
 
 On each push, the [GitHub Actions workflow](https://github.com/pmichaillat/hugo-website/actions/workflows/hugo.yml) invokes Hugo to generate the website and deploys the output to [GitHub Pages](https://github.com/pmichaillat/hugo-website/deployments/github-pages). During the workflow, Hugo processes your content, templates, and other project files and generates a static website.
 
@@ -54,13 +54,26 @@ And here is an overview of the desktop performance:
 
 <img width="453" alt="desktop" src="https://github.com/pmichaillat/pmichaillat.github.io/assets/85443660/eff134d2-6097-4bc2-bfd7-4f5c18571789">
 
-## Software
+## Build and test environments
 
-The website is built with Hugo v0.128.0. The website was tested and validated on Safari 17.5 on a Mac and on Safari on an iPhone with iOS 17.5.[^1]
+### Deployment via Continuous Integration
 
-[^1]:  The updates to Hugo v0.120 and then to Hugo v0.123 introduced some issues with previous versions of the template. The issue caused by the update to Hugo v0.120 is [#1325 in the PaperMod repo](https://github.com/adityatelange/hugo-PaperMod/issues/1325). The issue caused by the update to Hugo v0.123 is [#1449 in the PaperMod repo](https://github.com/adityatelange/hugo-PaperMod/issues/1449). These issues are now resolved
++ Platform: GitHub Actions on `ubuntu-latest`  
++ Hugo version: v0.128.0
 
-While the template should also work with other versions of Hugo, compatibility cannot be guaranteed. Users working with different Hugo versions may need to make minor adjustments. Similarly, the website should work with other browsers, but minor adjustments might be necessary for perfect compatibility. [Please report](https://github.com/pmichaillat/hugo-website/issues) any compatibility issues or bugs.
+### Local development and testing
+
++ Operating system: macOS Sequoia 15.4.1  
++ Hugo version: v0.135.0
+
+### Browser tests
+
++ Safari 18.4 on macOS
++ Mobile Safari on iOS 18.4.1  
+
+### Reporting issues
+
+These configurations have been validated; other Hugo versions, operating systems, and web browsers may require minor adjustments. Please [report any issues](https://github.com/pmichaillat/hugo-website/issues) to help improve compatibility.
 
 ## License
 
