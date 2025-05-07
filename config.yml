@@ -91,9 +91,11 @@ params:
         - name: Substack
           url: https://pmichaillat.substack.com
         - name: YouTube
-          url: https://www.youtube.com/@apmichaillat
+          url: https://www.youtube.com/@pmichaillat
         - name: Twitter
-          url: https://twitter.com/McCallSmith
+          url: https://x.com/pmichaillat
+        - name: Bluesky
+          url: https://bsky.app/profile/pmichaillat.bsky.social
 
     assets:
         disableScrollBarStyle: true
