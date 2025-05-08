@@ -9,7 +9,7 @@ summary: "Using several case studies, this paper describes the inner hedgehog, a
 cover:
     image: "paper3.png"
     alt: "Vizualisation of an inner hedgehog"
-    relative: false
+    relative: true
 editPost:
     URL: "https://github.com/pmichaillat/hugo-website"
     Text: "Journal of Socio-Experimental Psychology"

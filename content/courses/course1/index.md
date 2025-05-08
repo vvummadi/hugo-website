@@ -23,7 +23,7 @@ summary: "This graduate course presents classical results in Romance philology. 
 cover:
     image: "course1.png"
     alt: "Villa of Reduced Circumstances"
-    relative: false
+    relative: true
 editPost:
     URL: "https://github.com/pmichaillat/hugo-website"
     Text: "Course portal"

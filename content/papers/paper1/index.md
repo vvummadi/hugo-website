@@ -9,7 +9,7 @@ summary: "This paper reviews unusual uses for olive oil throughout the Mediterra
 cover:
     image: "paper1.png"
     alt: "Some Uses For Olive Oil"
-    relative: false
+    relative: true
 editPost:
     URL: "https://github.com/pmichaillat/hugo-website"
     Text: "Journal of Oleic Science"

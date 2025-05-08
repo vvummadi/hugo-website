@@ -9,7 +9,7 @@ summary: "This book discusses Portugese irregular verbs in great details."
 cover:
     image: "book1.png"
     alt: "Portugese Irregular Verbs"
-    relative: false
+    relative: true
 editPost:
     URL: "https://github.com/pmichaillat/hugo-website"
     Text: "Regensburg University Press"

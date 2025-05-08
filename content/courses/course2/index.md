@@ -9,7 +9,7 @@ summary: "This undergraduate course discusses profanity in Early Irish, and rela
 cover:
     image: "course2.png"
     alt: "Figure caption"
-    relative: false
+    relative: true
 editPost:
     URL: "https://github.com/pmichaillat/hugo-website"
     Text: "Course portal"
