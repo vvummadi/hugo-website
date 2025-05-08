@@ -40,13 +40,13 @@ The command builds the website on your machine and makes it available at http://
 
 ### Deployment via Continuous Integration
 
-Once your website is ready to be made public, commit your content and template changes and push them to the website repository on GitHub (to the default branch, `main`). It is convenient to use GitHub Desktop for this Git operation.
+Once your website is ready to be made public, commit your content and template changes and push them to the website repository on GitHub. It is convenient to use GitHub Desktop for this Git operation.
 
 On each push, the [GitHub Actions workflow](https://github.com/pmichaillat/hugo-website/actions/workflows/hugo.yml) invokes Hugo to generate the website and deploys the output to [GitHub Pages](https://github.com/pmichaillat/hugo-website/deployments/github-pages). During the workflow, Hugo processes your content, templates, and other project files and generates a static website.
 
 ## Performance
 
-Despite the modifications to the PaperMod theme, the website continues to perform well on mobile and desktop devices. Here is an overview of the mobile performance from [PageSpeed Insights](https://pagespeed.web.dev/):
+The website performs well on mobile and desktop devices. Here is an overview of the mobile performance from [PageSpeed Insights](https://pagespeed.web.dev/):
 
 <img width="470" alt="mobile" src="https://github.com/pmichaillat/hugo-website/assets/85443660/1488df3e-19bb-4f9f-8a86-11f361414d92">
 
@@ -56,22 +56,10 @@ And here is an overview of the desktop performance:
 
 ## Build and test environments
 
-### Deployment via Continuous Integration
-
-+ Platform: GitHub Actions on `ubuntu-latest`  
-+ Hugo version: v0.128.0
-
-### Local development and testing
-
-+ Operating system: macOS Sequoia 15.4.1  
-+ Hugo version: v0.135.0
-
-### Browser testing
+The website is built with Hugo v0.147.2 via GitHub Actions. The website was developed locally with Hugo v0.147.2 on macOS Sequoia 15.4.1. The website was tested on the following browsers:
 
 + Safari 18.4 on macOS 15.4.1
 + Mobile Safari on iOS 18.4.1  
-
-### Reporting issues
 
 These configurations have been validated; other Hugo versions, operating systems, and web browsers may require minor adjustments. Please [report any issues](https://github.com/pmichaillat/hugo-website/issues) to help improve compatibility.
 
