@@ -1,7 +1,6 @@
 ---
 title: "Your Inner Hedgehog" 
 date: 2021-04-06
-lastmod: 2024-10-18
 tags: ["social psychology","inner hedgehog","academia","experimental psychology","invasive thoughts"]
 author: ["Hilda Schreiber-Ziegler", "Moritz-Maria von Igelfeld"]
 description: "This paper describes the inner hedgehog, a psychological condition widespread in academia. Published in the Journal of Socio-Experimental Psychology, 2021." 
@@ -9,7 +8,7 @@ summary: "Using several case studies, this paper describes the inner hedgehog, a
 cover:
     image: "paper3.png"
     alt: "Vizualisation of an inner hedgehog"
-    relative: false
+    relative: true
 editPost:
     URL: "https://github.com/pmichaillat/hugo-website"
     Text: "Journal of Socio-Experimental Psychology"
@@ -21,7 +20,7 @@ editPost:
 ##### Download
 
 + [Paper](paper3.pdf)
-+ [Raw data](https://github.com/pmichaillat/recession-indicator)
++ [Raw data](https://github.com/pmichaillat/michez-rule)
 
 ---
 
