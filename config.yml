@@ -66,7 +66,7 @@ params:
             - name: Awards
               url: awards/
             - name: Membership
-              url: resume/
+              url: membership/
             - name: Papers
               url: papers/
             - name: LinkedIn
