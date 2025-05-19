@@ -1,61 +1,59 @@
 ---
-title: "The Finer Points of Sausage Dogs" 
-date: 2004-12-28
-tags: ["zoology","sausage dogs","canine pulmonary efficiency","canine science","experimental zoology"]
-author: ["Florianus Prinzel", "Moritz-Maria von Igelfeld"]
-description: "This paper studies the pulmonary efficiency of sausage dogs. Published in the Journal of Canine Science, 2004." 
-summary: "This paper studies the pulmonary efficiency of sausage dogs through several experiments." 
+title: "Enhancing supply chain resilience: Proactive strategies for disruptive events" 
+date: 2024-06-03
+tags: []
+author: [Krishna Chaitanya Raja Hajarath, Jayapal Reddy Vummadi ]
+description: "" 
+summary: "This study presents a proactive approach to building resilient supply chains by addressing risks from natural disasters, geopolitical instability, and pandemics through strategic planning, diversification, and technology. It offers a practical framework to help businesses prepare for and recover from disruptions."
 cover:
-    image: "paper2.png"
-    alt: "Dimensions of a sausage dog"
+    image: ""
+    alt: ""
     relative: true
 editPost:
-    URL: "https://github.com/pmichaillat/hugo-website"
-    Text: "Journal of Canine Science"
-
+    URL: "https://www.researchgate.net/publication/381147890_Enhancing_Supply_Chain_Resilience_Proactive_Strategies_for_Disruptive_Events"
+    Text: "International Journal of Supply Chain Management"
 ---
-
 ---
 
 ##### Download
 
-+ [Paper](paper2.pdf)
-+ [Online appendix](appendix2.pdf)
-+ [Code and data](https://github.com/pmichaillat/wunk-model)
-
----
++ [Paper](Enhancing_Supply_Chain_Resilience_Proactive_Strate.pdf)
 
 ##### Abstract
 
-This paper studies the pulmonary efficiency of sausage dogs. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur: $\sin(\theta) = x^2 - \exp(1+\chi)$. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor $\zeta$ incididunt ut labore et dolore magna aliqua: $p(x) = \int \cos(\zeta) d\zeta - \theta$. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+**Purpose**: This paper emphasizes the significance of
+proactive strategies in enhancing supply chain
+resilience against disruptions, focusing on natural
+disasters, geopolitical instability, and pandemics.
+Through risk assessment, scenario planning, and
+proactive measures like diversification, inventory
+optimization, and technology adoption, it proposes an
+integrated methodology for resilient supply chains.
 
----
+**Methodology**: Drawing from literature and real-world
+examples, this study develops a framework for supply
+chain resilience, emphasizing contingency planning
+and implementation techniques.
 
-##### Figure 2: Dimensions of a sausage dog
+**Findings**: The integrated methodology enhances
+companies' resilience and recovery capacity,
+mitigating the severity of disruption effects. Practical
+recommendations are offered for developing resilient
+supply chains in uncertain business environments.
 
-![](paper2.png)
+**Unique Contribution to Theory, Practice and
+Policy**: This study contributes by offering actionable
+recommendations, bridging theory and practice, to
+fortify supply chains against instability and
+uncertainty, thereby advancing both theoretical
+understanding and practical applications in supply
+chain resilience planning.
+
+**Keywords**: Resilience, Proactiv, Contingency, Risk
+Assessment, Implementation
 
 ---
 
 ##### Citation
 
-Prinzel, Florianus, and Moritz-Maria von Igelfeld. 2004. "The Finer Points of Sausage Dogs." *Journal of Canine Science* 43 (2): 89–109. http://www.alexandermccallsmith.com/book/the-finer-points-of-sausage-dogs.
-
-```BibTeX
-@article{PI04,
-author = {Florianus Prinzel and Moritz-Maria von Igelfeld},
-year = {2004},
-title ={The Finer Points of Sausage Dogs},
-journal = {Journal of Canine Science},
-volume = {43},
-number = {2},
-pages = {89--109},
-url = {http://www.alexandermccallsmith.com/book/the-finer-points-of-sausage-dogs}}
-```
-
----
-
-##### Related material
-
-+ [Presentation slides](presentation2.pdf)
-+ [Wikipedia entry](https://en.wikipedia.org/wiki/The_Finer_Points_of_Sausage_Dogs)
+Hajarath, Krishna, and Jayapal Vummadi. "Enhancing supply chain resilience: Proactive strategies for disruptive events." *International Journal of Supply Chain Management* 9, no. 3 (2024): 1-11.
