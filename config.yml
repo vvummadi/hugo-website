@@ -15,11 +15,9 @@ menu:
         - name: About
           url: about/
           weight: 5 
-        - name: Awards
-          url: awards/
+        - name: Awards and Membership
+          url: awardsandmembership/
           weight: 2
-        - name: Membership
-          url: membership/
           weight: 3
         - name: Papers
           url: papers/
@@ -29,6 +27,7 @@ menu:
           weight: 6
 
 params:
+    custom_css: "assets/css/extended/custom.css"
     description: "IT - Logistics | Supply chain Managment @ ZF Group | IEEE Senior Member | Esteemed Judge | Award-Winning Mentor | Speaker | Forbes Technology council Member | Globee Award Winner | GR Award | Global Leader Award"
     author: Jayapal Reddy Vummadi
     # googleAnalyticsID: "G-XXXXX"
@@ -44,7 +43,7 @@ params:
     ShowBreadCrumbs: false
     ShowCodeCopyButtons: true
     ShowAllPagesInArchive: false
-    MainSections: ["about","awards","membership","papers","linkedin"]
+    MainSections: ["about","awards and membership","papers","linkedin", "contact"]
     ShowToc: false
     disableScrollToTop: true
     TocOpen: true
@@ -63,14 +62,14 @@ params:
           buttons:
             - name: About
               url: about/
-            - name: Awards
-              url: awards/
-            - name: Membership
-              url: membership/
+            - name: Awards and Membership
+              url: awardsandmembership/
             - name: Papers
               url: papers/
             - name: LinkedIn
               url: https://www.linkedin.com/in/jayapal-vummadi/
+            - name: Contact
+              url: contact/
  
     assets:
         disableScrollBarStyle: true
@@ -78,7 +77,7 @@ params:
         hiddenInList: false
         hiddenInSingle: true
     label:
-      text: "Moritz-Maria von Igelfeld"
+      text: "Jayapal Reddy Vummadi"
       icon: favicon.ico
       iconHeight: 18
 
